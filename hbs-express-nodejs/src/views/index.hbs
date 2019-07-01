@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prueba</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>{{titulo}}</h1>
+    <table border="1" style="border: black">
+        <tr>
+            <td>Nombre</td>
+            <td>Curso</td>
+        </tr> {{#each datos }} <tr>
+            <td>{{this.nombres}}</td>
+            <td>{{this.curso}}</td>
+        </tr> {{/each}}
+    </table>
+</body>
+
+</html>

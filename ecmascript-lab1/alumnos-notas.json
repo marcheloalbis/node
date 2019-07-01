@@ -1,0 +1,21 @@
+{
+    "alumnos": [{
+            "nombre": "Jorge",
+            "curso": {
+                "nombre_curso": "Node Js",
+                "nota1": 10,
+                "nota2": 10,
+                "nota3": 10
+            }
+        },
+        {
+            "nombre": "Ana",
+            "curso": {
+                "nombre_curso": "Angular",
+                "nota1": 10,
+                "nota2": 10,
+                "nota3": 10
+            }
+        }
+    ]
+}
